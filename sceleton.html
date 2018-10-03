@@ -1,0 +1,69 @@
+
+<script type="text/javascript">
+    function show_sidebar() {
+        document.getElementById('nav').style.visibility="visible";
+        this.style["-webkit-transition-duration"] = "3s";
+    }
+    function hide_sidebar() {
+        document.getElementById('nav').style.visibility="hidden";
+        this.style["-webkit-transition-duration"] = "3s";
+    }
+</script>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Title of this document</title>
+    <link rel="stylesheet" href="sceleton.css" type="text/css">
+</head>
+<body>
+<div class="container">
+
+    <div class="header-container">
+
+        <header class="header">
+            <div class="branding">
+                <div class="brand-logo"><img src="images/logoFinal.png"> </div>
+                <h1 class="brand-name">Cyber Society</h1>
+            </div>
+            <div class="pro-pic-div">
+                <?php
+                if($allFromProfileRow['pro_pic'] == null){
+                    echo '<img src="images/default_pro_pic.png">';
+                }
+                ?>
+            </div>
+        </header>
+
+        <nav class="nav" id="nav">
+            <?php include "backend/top_nav.php"; ?>
+        </nav>
+
+    </div>
+
+    <section class="content_area">
+        <div class="banner">
+
+            <div class="col col-1">
+
+                <div class="left-nav" >
+                    <ul>
+                        <li><a href="javascript:showDiv('a')">Li 1</a></li>
+                        <li><a href="javascript:showDiv('a')">Li 2</a></li>
+                        <li><a href="javascript:showDiv('a')">Li 3</a></li>
+                    </ul>
+                </div>
+                <div class="content-panel" >Right of the left</div>
+
+            </div>
+            <div class="col col-2">
+                <div  class="right-nav"><?php include 'backend/right-nav.php'; ?></div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer">Under Copyright<sup style="font-size: 5px">TM</sup></footer>
+</div>
+</body>
+</html>﻿

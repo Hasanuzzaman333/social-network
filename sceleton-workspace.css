@@ -1,0 +1,538 @@
+/*@import url(https://fonts.google.com/specimen/Bungee+Shade);*/
+
+html {
+    font-family:"Book Antiqua", sans-serif;
+}
+body {
+    background: rgba(177, 177, 177, 0.84);
+    margin:0;
+}
+.container {
+    max-width:1000px;
+    min-width: 750px;
+    margin:0px auto;
+    background: #f2f2f2;
+}
+
+.header-container{
+    position: fixed;
+    width: 1000px;
+}
+
+.header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 0 0 0;
+    background-color: rgba(124, 214, 208, 0.85);
+    height: 80px;
+}
+
+.header h1{ /*only for index h1*/
+    font-family: "Love-Box";
+    height: 25px;
+    font-size: 2.5em;
+    text-align: left;
+    color: rgba(7, 154, 17, 0.71);
+    margin: 10px 10px 10px 10px;
+    padding-top: 0px;
+}
+
+.logo {/*only for index*/
+    float:left;
+    width:100px;
+    height:100px;
+    margin:0px 10px auto;
+}
+.logo img {/*only for index*/
+    width:100px;
+    height:100px;
+}
+
+div text, div text a{/*only for index 'Forgot pass?'*/
+    font-size: 10px;
+    text-decoration: none;
+}
+text {/*only for index 'Forgot pass?'*/
+    color: #000;
+}
+
+div text a{/*only for index 'Forgot pass?'*/
+    color: red;
+}
+
+.branding{
+    float: left;
+    width: 800px;
+}
+.brand-name{
+    font-family: LOVE-BOX;
+    margin-top: 0px;
+    padding-top: 12px;
+}
+.brand-logo {
+    float:left;
+    width:70px;
+    height:70px;
+    margin:2px 5px 2px 5px;
+}
+.brand-logo img {
+    float:left;
+    width:100%;
+}
+
+.pro-pic-div{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 110px;
+    width: 110px;
+    border-radius: 4px;
+}
+
+.pro-pic-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: block;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+nav {
+    height: 20px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 5px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 4px;
+}
+nav ul li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+
+ul li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+ul li a:hover {
+    background-color: rgba(118, 118, 118, 0.44);
+    transition-duration: 250ms;
+}
+
+.searchform input[type=submit]{
+    background-color: #333333;
+    background-image: url("images/search.png");
+    background-position: 6px 3px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+
+
+input[type=search]{
+    font-family: inherit;
+    color: #ffffff;
+    border-color: rgba(85, 85, 85, 0);
+    background-color: rgba(85, 85, 85, 0);
+    border-radius: 1px;
+    font-size: 16px;
+    width: 80px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    box-sizing: border-box;
+    padding: 6px 10px 6px 5px;
+}
+
+input[type=search]:focus {
+    width: 200px;
+    background-color: #fff;
+    color: #000000;
+}
+
+
+.content_area{
+    border: 0px;
+    margin-right: 5px;
+}
+
+.banner {
+    height: 500px;
+    clear:both;
+    padding: 5px 5px 5px 5px ;
+    margin: 0 0 0 0;
+}
+.col {
+    float:left;
+    margin-right:1%;
+    margin-top: 15%;
+    min-height: 50%;
+    padding:1%;
+    border-radius: 5px;
+}
+.col-1 {
+    width:68%;
+    min-height: 500px;
+    min-width: 480px;
+    height: auto;
+    /*background-image: url("images/defocus2.png");
+    background-size: cover;*/
+    background-color: rgba(190, 190, 190, 0.64);
+}
+
+.caption {
+    display: block;
+}
+
+.col col-1 slide{
+    padding-left: auto;
+}
+.col-2 {
+    width:27%;
+    min-width: 145px;
+    height: auto;
+    min-height: 500px;
+    margin-right:0;
+}
+
+
+.left-nav, .right-nav{
+    top: 200px;
+    float: left ;
+    border-radius: 5px;
+    padding: 0px 5px 5px 0px;
+    position: fixed;
+    width: auto;
+    margin-left: 0;
+}
+
+.left-nav{
+    width:auto;
+}
+.right-nav{
+    background-color: rgba(0, 0, 0, 0.21);
+    min-width: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+
+.left-nav ul{
+    padding-left: 5px;
+}
+
+.left-nav ul li, .right-nav ul li {
+    list-style: none;
+    padding-right: 5px;
+}
+
+.left-nav ul li a{
+    color: rgba(46, 46, 46, 0.91);
+}
+
+.right-nav ul li a{
+    color: #000;
+    text-align: center;
+    width: 90%;
+}
+
+.sign{
+    background-color: rgba(85, 85, 85, 0.25);
+}
+
+footer {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    font-size: smaller;
+    bottom: 0;
+}
+
+label{
+    font-size: 14px;
+    color: #000000;
+    width: 125px;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 10px;
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#about,#quote{
+    max-width: 300px;
+    min-width: 100px;
+    max-height: 350px;
+    min-height: 100px;
+}
+
+
+div text, div text a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+
+div text a{
+    color: red;
+}
+
+.content-panel input[type=submit] {
+    width: auto;
+}
+
+.content-panel input[type=submit]:hover {
+    background-color: #ffffff;
+    transition-duration: 500ms;
+}
+
+.content-panel{
+    float: right ;
+    border-radius: 4px;
+    height: auto;
+    width:68%;
+    padding: 0px 5px 5px 5px;
+}
+
+.content-panel input[type=text] ,.content-panel input[type=tel], .content-panel input[type=password], .content-panel input[type=date],.content-panel input[type=email], #textarea{
+    padding-right: 30px;
+}
+
+h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(204, 204, 204, 0.46);
+}
+
+.content-panel #people .srch_rslt_div, .people_tile, .comm-div,.srch_rslt_div{
+    width: 90%;
+    height: 100px;
+    background-color: #62af93;
+    border-radius: 4px;
+}
+
+.content-panel #people .srch_rslt_div img, .people_tile img, .comm-div img,.srch_rslt_div img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+
+.content-panel #about-me img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-panel ul{
+    list-style-type: none;
+    padding-left: 150px;
+}
+.content-panel ul a{
+    padding-left: 0%;
+}
+
+.my-posts{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.post{
+    border-radius: 5px;
+    align-content: center;
+}
+.individual-post{
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    background-color: rgba(165, 165, 165, 0.51);
+    border-radius: 4px;
+}
+
+.individual-post:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.50);
+    border: 1px solid #000000;
+}
+
+.post-owner,.post-date-time,.post-text{
+    padding: 10px 10px 0 10px;
+}
+
+.post-date-time{
+    font-size: 12px;
+    color: rgba(95, 135, 91, 0.9);
+}
+
+.post-owner{
+    font-size: 14px;
+    color: rgba(125, 10, 16, 0.78);
+}
+
+.post-text{
+    font-size: 19px;
+    color: rgba(34, 34, 34, 0.9);
+    margin-bottom: 10px;
+}
+
+.post img {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.post-thumb-left{
+    float: left;
+}
+
+.post-thumb-right{
+    float: right;
+}
+
+.post-thumb-right, .post-thumb-left{
+    height: 50px;
+    margin: 0 50px 0 50px;
+}
+
+.button{
+    border-radius: 50px;
+    padding: 5px 5px 0 5px;
+    border: 0;
+    border-color: transparent;
+}
+
+.post-comment{
+    clear: both;
+    height: 75px;
+    margin-top: 10px;
+    padding:0 15px 0 15px;
+}
+
+.q-and-a label{
+    width: auto;
+}
+
+input[type=submit], .button{
+    width: auto;
+    border: none;
+    color: rgba(0, 0, 0, 0.84);
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button{
+    background-color: transparent;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+
+input[type=text] ,input[type=tel], input[type=password], input[type=date], input[type=email],#textarea {
+    width: 230px;
+    background-color: #EEEEEE;
+    padding: 5px 10px;
+    margin: 3px 0;
+    border: none;
+    color: rgba(0, 0, 0, 0.84);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+}
+#textarea{
+    width:100%;
+    height: 50px;
+    max-width: 100%;
+    max-height: 150px;
+    min-width: 75%;
+    min-height: 50px;
+}
+
+.col-2 input[type=text] ,.col-2 input[type=tel],.col-2  input[type=password],.col-2  input[type=date],.col-2  input[type=email]{
+    /*For right column only*/
+    width:100%;
+    padding: 10px 15px;
+    margin: 1px 0;
+}
+.col-2 input[type=submit]{
+    width: 100px;
+}
+
+
+input[type=text]:hover,input[type=tel]:hover , input[type=password]:hover, input[type=date]:hover, input[type=email]:hover,
+#textarea:hover
+{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.50);
+    border: 1px solid #000000;
+}
+
+input[type=submit]:hover, .button:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.50);
+    border: 1px solid #000000;
+}
+
+input[type=text]:focus,input[type=tel]:focus, input[type=password]:focus, input[type=date]:focus, input[type=email]:focus,
+#textarea:focus
+{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.50);
+    border: 1px solid #000000;
+}
+
+input[type=submit]:focus{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.50);
+    border: 1px solid #000000;
+}
+
+.msg0, .msg1, .cmmntclass0, .cmmntclass1{
+    margin: 0px 5px 0px 5px;
+    padding: 5px 10px 5px 10px;
+}
+.msg1{
+    text-align: left;
+    background-color: rgba(155, 155, 155, 0.6);
+}
+.msg0{
+    text-align: right;
+}
+
+.msgsender, .commenter{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(51, 51, 51, .75);
+}
+.msgtime, .cmmnttime{
+    font-size: 10px;
+    color: rgba(51, 51, 51, 0.55);
+}
+.msg, .comment{
+    font-size: 20px;
+    color: rgb(91, 80, 31);
+}
+
+.my-pro-pic{
+    align-content: center;
+}
+
+.my-pro-pic img{
+    width: 250px;
+}

@@ -1,0 +1,21 @@
+<script>
+    function formValidation() {
+        if(document.forms["commcreate"]["commname"].value == ""){
+            document.getElementById("email").focus();
+            alert("Email must be filled out");
+            return false;
+        }
+    }
+</script>
+
+<form name="commcreate" action="community_view.php" method="POST" onsubmit="return(formValidation())">
+
+
+    <div class="commcreateform" id="commcreateform" name="commcreateform" style=" display:block">
+
+        <label >Community Name: </label> <input type="text" name="commname" id="commname">
+
+    </div>
+    <input type="submit" value="Create" />
+
+</form>

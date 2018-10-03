@@ -1,0 +1,183 @@
+/*@import url(https://fonts.google.com/specimen/Bungee+Shade);*/
+
+html {
+    font-family:"Book Antiqua", sans-serif;
+}
+body {
+    background:#ccc;
+    margin:0;
+}
+.container {
+    max-width:1000px;
+    min-width: 750px;
+    margin:0px auto;
+    background: #f2f2f2;
+}
+
+.header-container{
+    position: fixed;
+    width: 1000px;
+}
+
+
+.header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 0 0 0;
+    background-color: rgba(160, 161, 161, 0.62);
+    height: 80px;
+}
+
+.branding{
+    float: left;
+    width: 800px;
+}
+.brand-name{
+    font-family: LOVE-BOX;
+    margin-top: 0px;
+    padding-top: 12px;
+}
+.brand-logo {
+    float:left;
+    width:70px;
+    height:70px;
+    margin:2px 5px 2px 5px;
+}
+.brand-logo img {
+    float:left;
+    width:100%;
+}
+
+.pro-pic-div{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 110px;
+    width: 110px;
+    background-color: #f44336;
+}
+
+
+nav {
+
+    height: 20px;
+    width: auto;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 5px;
+    overflow: hidden;
+    background-color: #333;
+}
+nav ul li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+ul li a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+ul li a:hover {
+    background-color: #555;}
+
+input[type=search]{
+    font-family: inherit;
+    color: #000000;
+    border-color: rgba(85, 85, 85, 0);
+    background-color: rgba(85, 85, 85, 0);
+    border-radius: 1px;
+    font-size: 16px;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    box-sizing: border-box;
+    background-image: url('images/search.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 6px 10px 6px 40px;
+}
+
+input[type=search]:focus {
+    width: 350px;
+    background-color: #fff;
+    color: #000000;
+}
+
+
+.content_area{
+    border: 0px;
+}
+
+.banner {
+    height: 500px;
+    clear:both;
+    padding: 5px;
+}
+.col {
+    float:left;
+    margin-right:2%;
+    margin-top: 15%;
+    color: #faff8f;
+    min-height: 50%;
+    padding:2.5%;
+    border-radius: 10px;
+}
+.col-1 {
+    width:70%;
+    min-height: 275px;
+    height: 100%;
+    background-image: url("images/defocus2.png");
+    background-size: cover;
+}
+.col-2 {
+    width:18%;
+    min-width: 100px;
+    height: 100%;
+    min-height: 275px;
+    background-color: rgba(176, 177, 177, 0.57);
+    margin-right:0;
+}
+
+.left-nav{
+    float: left ;
+    border-radius: 5px;
+    height: auto;
+    width:28%;
+    min-width: 100px;
+    background-color: rgba(176, 177, 177, 0.57);
+    padding: 5px 5px 5px 0px;
+    align-content: left;
+    margin: 0 0 0 0;
+}
+
+.content-panel{
+    float: right ;
+    border-radius: 5px;
+    height: auto;
+    width:68%;
+    background-color: rgba(0, 0, 0, 0.51);
+    margin-right:0;
+    padding: 25px 5px 5px 5px;
+}
+
+
+footer {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    font-size: smaller;
+    bottom: 0;
+}
+
